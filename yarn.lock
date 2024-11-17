@@ -14,18 +14,6 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@eartho/one-client-js@^2.0.12":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@eartho/one-client-js/-/one-client-js-2.0.12.tgz#0afbfc72247ea3b4318793c94dfa9bcd0c0c8c62"
-  integrity sha512-KKLLZx/9bAzOgawCHHxKeMZh9K9nSJcnQW0pH+Nk+RsmNXgsLD/Vd3ABh2LEIi2E+e1UoaEao3l1PiSZWL47OQ==
-
-"@eartho/one-client-react@^2.0.12":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@eartho/one-client-react/-/one-client-react-2.0.12.tgz#23409c7d5cac334e5fe15a72aba89da97d7cc703"
-  integrity sha512-2C92XzYLh0Ga2RyTeTfIo0novWc8W1mRRdxRo9ZlfotkVXt6bP5Xhyx2xM55hj/y452qolwoOtWsTKFptrW55w==
-  dependencies:
-    "@eartho/one-client-js" "^2.0.12"
-
 "@emnapi/runtime@^0.44.0":
   version "0.44.0"
   resolved "https://registry.yarnpkg.com/@emnapi/runtime/-/runtime-0.44.0.tgz#1ef702f846cfcd559d28eb7673919087ba5b63e3"

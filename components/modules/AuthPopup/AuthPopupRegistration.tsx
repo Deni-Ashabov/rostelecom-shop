@@ -10,13 +10,10 @@ import PasswordInput from './PasswordInput'
 import { useLang } from '@/hooks/useLang'
 import AuthPopupSocials from './AuthPopupSocials'
 
-const AuthPopupRegistration = ({
-  toggleAuth,
-  isSideActive,
-}: IAuthSideProps) => {
+const AuthPopupRegistration = ({ toggleAuth }: IAuthSideProps) => {
   const { lang, translations } = useLang()
   const { spinner, register, errors, handleSubmit, handleSignupWithOAuth } =
-    useAuthForm(singUpFx.pending, isSideActive, handleSignUp)
+    useAuthForm(singUpFx.pending)
 
   const submitForm = (data: IInputs) =>
     handleSignUp({

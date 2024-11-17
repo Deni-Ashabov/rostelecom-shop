@@ -11,10 +11,10 @@ import { useLang } from '@/hooks/useLang'
 import AuthPopupSocials from './AuthPopupSocials'
 import { handleCloseAuthPopup } from '@/lib/utils/common'
 
-const AuthPopupLogin = ({ toggleAuth, isSideActive }: IAuthSideProps) => {
+const AuthPopupLogin = ({ toggleAuth }: IAuthSideProps) => {
   const { lang, translations } = useLang()
   const { spinner, register, errors, handleSubmit, handleSignupWithOAuth } =
-    useAuthForm(singInFx.pending, isSideActive, handleSignIn)
+    useAuthForm(singInFx.pending)
 
   const submitForm = (data: IInputs) =>
     handleSignIn({
